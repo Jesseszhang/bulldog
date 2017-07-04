@@ -1,2 +1,4 @@
 # Bulldog
-vue2 component 
+Bulldog vue2 component 
+![Bulldog](/src/asset/img/logo.png)
+
