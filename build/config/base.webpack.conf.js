@@ -31,7 +31,6 @@ module.exports = function (opt) {
       extensions: ['.js'],
       alias: {
         'vue$': 'vue/dist/vue.esm.js',
-        'vue2do': path.resolve(__dirname, `${config.global.root}`),
         'src': path.resolve(__dirname, `${config.global.root}/src`),
         'ex': path.resolve(__dirname, `${config.global.root}/example`),
         'exAsset': path.resolve(__dirname, `${config.global.root}/example/client/asset`)
@@ -48,7 +47,6 @@ module.exports = function (opt) {
           }
         }, {
           test: /\.js$/,
-          // exclude: /(node_modules|bower_components)/,
           use: {
             loader: 'babel-loader',
             options: {
@@ -69,9 +67,6 @@ module.exports = function (opt) {
         }, {
           test: /\.json$/,
           loader: 'json-loader'
-        }, {
-          test: /\.pug$/,
-          loader: 'pug-loader'
         }, {
           test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
           loader: 'url-loader',
