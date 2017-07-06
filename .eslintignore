@@ -1,0 +1,5 @@
+src/asset/**/*.js
+node_modules/*
+node_modules/
+*.zip
+*.log
