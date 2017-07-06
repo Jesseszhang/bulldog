@@ -30,7 +30,6 @@ module.exports = function (opt) {
       modules: ["node_modules", path.resolve(__dirname, `${config.global.root}/src/scss`)],
       extensions: ['.js'],
       alias: {
-        'vue$': 'vue/dist/vue.esm.js',
         'src': path.resolve(__dirname, `${config.global.root}/src`),
         'ex': path.resolve(__dirname, `${config.global.root}/example`),
         'exAsset': path.resolve(__dirname, `${config.global.root}/example/client/asset`)

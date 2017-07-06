@@ -15,7 +15,7 @@ module.exports = function (opt = {}) {
   const baseWebpackConfig = require('./base.webpack.conf')({
     appName: appName
   })
-  const template = appConfig.template ? '' : path.resolve(__dirname, `../tpl/index.html`)
+  const template = appConfig.template ? '' : path.resolve(__dirname, `../template/index.html`)
 
   let baseEntryApp = baseWebpackConfig.entry.app.slice()
   delete baseWebpackConfig.entry

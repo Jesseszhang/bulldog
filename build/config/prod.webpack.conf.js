@@ -17,7 +17,7 @@ module.exports = function (opt) {
   var env = process.env.NODE_ENV === 'testing'
     ? require('../config/test.env')
     : config.build.env
-  const template = appConfig.template ? '' : path.resolve(__dirname, `../tpl/index.html`)
+  const template = appConfig.template ? '' : path.resolve(__dirname, `../template/index.html`)
 
   var webpackConfig = merge(baseWebpackConfig, {
     devtool: config.build.productionSourceMap ? '#source-map' : false,
