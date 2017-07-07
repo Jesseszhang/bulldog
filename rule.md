@@ -362,17 +362,17 @@ var record = {
 ```
 1、方法之间添加：
 <!-- 注释信息 -->
-funciton fun1(){
+funciton fun1() {
   ……
 }
 
 <!-- 注释信息 -->
-funciton fun2(){
+funciton fun2() {
   ……
 }
 
 2、单行或多行注释前添加
-function fun1(){
+function fun1() {
   var _self = this
 
   <!-- 注释信息 -->
@@ -380,10 +380,10 @@ function fun1(){
 }
 
 3、逻辑块之间添加空行增加可读性
-function fun1(){
+function fun1() {
   var _self = this
 
-  for(var i = 0, len = arr.length i < len i++){
+  for (var i = 0, len = arr.length i < len i++) {
     ……（这是一块单独的逻辑处理）
   }
 }
@@ -392,7 +392,7 @@ function fun1(){
 
 ```
 readFile('XXX', function(err, data){
-  if(err){
+  if (err) {
       //异常处理
       return
   }
@@ -402,14 +402,14 @@ readFile('XXX', function(err, data){
 * for in 不要用在遍历array上，因为会遍历继承属性，最好用在object上
 
 ```
-for(var i = 0, len = arr.length i < len i ++){
+for (var i = 0, len = arr.length i < len i ++) {
 
 }
 ```
 * if、while、for、do语句的执行体总是用'{'和'}'括起来，即使在其结构体内只有一条语句
 
 ```
-if(true){
+if (true) {
   console.log(hello word!)
 }
 ```
