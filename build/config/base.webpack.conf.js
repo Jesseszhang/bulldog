@@ -12,7 +12,7 @@ module.exports = function (opt) {
     entry: {
       app: [
         'babel-polyfill',
-        path.resolve(__dirname, `${config.global.root}/${appName}/app.js`)
+        path.resolve(__dirname, `${config.global.root}/${appName}/main.js`)
       ]
     },
 
@@ -30,6 +30,8 @@ module.exports = function (opt) {
       modules: ["node_modules", path.resolve(__dirname, `${config.global.root}/src/scss`)],
       extensions: ['.js'],
       alias: {
+        'vue$': 'vue/dist/vue.esm.js',// 'vue/dist/vue.common.js' for webpack 1
+        'root': path.resolve(__dirname, `${config.global.root}`),
         'src': path.resolve(__dirname, `${config.global.root}/src`),
         'ex': path.resolve(__dirname, `${config.global.root}/example`),
         'exAsset': path.resolve(__dirname, `${config.global.root}/example/client/asset`)
@@ -40,7 +42,7 @@ module.exports = function (opt) {
       rules: [
         {
           test: /\.vue$/,
-          loader: 'vue',
+          loader: 'vue-loader',
           query: {
             loaders: utils.cssLoaders()
           }
@@ -66,6 +68,9 @@ module.exports = function (opt) {
         }, {
           test: /\.json$/,
           loader: 'json-loader'
+        },  {
+          test: /\.pug$/,
+          loader: 'pug-loader'
         }, {
           test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
           loader: 'url-loader',
