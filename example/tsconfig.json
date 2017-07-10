@@ -1,14 +1,19 @@
 {
   "compilerOptions": {
     "strict": true,
-    "module": "es2015",
-    "removeComments": true,
     "sourceMap": true,
-    "moduleResolution": "node",
     "target": "es5",
     "allowJs": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
     "allowSyntheticDefaultImports": true,
-		"experimentalDecorators": true,
     "lib": [
       "dom",
       "es5",
