@@ -9,6 +9,12 @@
 </p>
 
 # :space_invader: Bulldog
->Bulldog vue2 component
+>Bulldog vue2 component 
+>webpack2 vue2 typescript vue-router2 jsx eslint
+```
+npm i or cnpm i
+
+npm start
+```
 
 
