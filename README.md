@@ -10,11 +10,12 @@
 
 # :space_invader: Bulldog
 >Bulldog vue2 component 
->webpack2 vue2 typescript vue-router2 jsx eslint
+>webpack2 vue2 typescript vue-router2 jsx eslint 
 ```
 npm i or cnpm i
 
 npm start
 ```
+>vue2在2.2版本支持了typescript使用 ![vue-class-component](https://github.com/vuejs/vue-class-component) 能解决以上typescript对vue类型检测
 
 
