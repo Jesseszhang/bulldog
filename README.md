@@ -16,6 +16,6 @@ npm i or cnpm i
 
 npm start
 ```
->vue2在2.2版本支持了typescript使用 ![vue-class-component](https://github.com/vuejs/vue-class-component) 能解决以上typescript对vue类型检测
+>vue2在2.2版本支持了typescript使用 [vue-class-component](https://github.com/vuejs/vue-class-component)<a href="https://github.com/vuejs/vue-class-component">vue-class-component</a> 能解决以上typescript对vue类型检测 目前使用typescript写vue感觉还是不是很方便支持检测也不是很好，希望以后版本能够更好的支持。个人推荐使用jsx语法来写vue还是很不错的
 
 
