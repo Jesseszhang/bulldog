@@ -1,0 +1,38 @@
+@import "./var.scss";
+
+body {
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+a {
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    
+  }
+
+  &:link {
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+}
+p {
+  line-height: 1.8;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
