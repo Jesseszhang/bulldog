@@ -1,8 +1,11 @@
+@import "../../scss/mixin.scss";
+
 .header-wrap {
   height: 90px;
   margin-bottom: 25px;
   padding: 0 50px;
   background: #fff;
+  @include box-shadow(0 0 10px 0 #c0c0c0);
   .clearfix {
     zoom: 1;
   }

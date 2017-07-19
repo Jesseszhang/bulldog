@@ -1,0 +1,47 @@
+/**
+ * var.scss
+ */
+
+$PREFIX: b;
+
+// base color
+$bg-color: #ececec !default;
+$normal-color: #d9d9d9 !default;
+$primary-color: #0099FF !default;
+
+$danger-color: #f04134 !default;
+$success-color: #13ce66 !default;
+$warning-color: #f7ba2a !default;
+$default-color: #e6e6e6 !default;
+$orange-color: #f29354 !default;
+
+$primary-light-color: #7cc5f5 !default;
+$danger-light-color: #d44a4a !default;
+$success-light-color: #54a754 !default;
+$warning-light-color: #f59f25 !default;
+
+$primary-dark-color: #3084bf !default;
+$danger-dark-color: #d44a4a !default;
+$success-dark-color: #54a754 !default;
+$warning-dark-color: #f59f25 !default;
+
+$grey: #666666;
+$grey-dark: #333333;
+$grey-lightest: #cccccc;
+
+// background
+$bg-color: #f5f5f5;
+$bg-light-color: #fafafa;
+
+// link
+$link-color: $primary-color !default;
+
+// border
+$border-color: #d6d6d6;
+$border-lightest-color: #f0f0f0;
+$border-light-color: #e5e5e5;
+$border-thin: 1px;
+$border-thick: 3px;
+$border-radius: 4px;
+
+
