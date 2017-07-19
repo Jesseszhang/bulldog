@@ -4,7 +4,7 @@
 <p align="center">
 	<img src="https://img.shields.io/npm/v/npm.svg?style=flat-square">
 	<img src="https://img.shields.io/badge/language-javascript-orange.svg?style=flat-square">
-	<img src="https://img.shields.io/badge/weibo-@z Jesse-red.svg?style=flat-square">
+	<img src="https://img.shields.io/badge/weibo-@杰西_Jesse_z-red.svg?style=flat-square">
 	<img src="https://img.shields.io/packagist/l/doctrine/orm.svg?style=flat-square">
 </p>
 
