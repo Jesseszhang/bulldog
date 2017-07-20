@@ -2,17 +2,17 @@ import './footer-layout.scss'
 import template from './footer-layout.tpl'
 
 export default {
-  name: 'footer-layout',
+	name: 'footer-layout',
 
-  template,
+	template,
 
-  data() {
-    return {
-      
-    }
-  },
+	data() {
+		return {
 
-  methods: {
-    
-  }
+		}
+	},
+
+	methods: {
+
+	}
 }
