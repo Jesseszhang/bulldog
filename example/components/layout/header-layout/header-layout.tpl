@@ -6,12 +6,12 @@
       </a>
       <ul class="bulldog-menu">
         <li class="nav-item">
-          <a href="">
+          <a href="/">
             <span>首页</span>
           </a>
         </li>
         <li class="nav-item nav-item-selected">
-          <a href="">
+          <a href="/">
             <span>组件</span>
           </a>
         </li>

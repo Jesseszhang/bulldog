@@ -33,5 +33,5 @@ const time = (value, format) => {
 };
 
 module.exports = {
-  time,
+  time
 }
