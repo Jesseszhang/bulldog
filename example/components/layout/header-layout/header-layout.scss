@@ -48,7 +48,7 @@
         float: left;
         cursor: pointer;
         list-style: none;
-        border-bottom: 2px solid transparent;
+        border-bottom: 3px solid transparent;
         border-bottom-width: 3px;
         a {
           display: block;
@@ -59,7 +59,7 @@
           position: relative;
         }
         &.nav-item-selected {
-          border-bottom: 2px solid $primary-color;
+          border-bottom: 3px solid $primary-color;
           &::after {
             position: absolute;
             background: transparent;
