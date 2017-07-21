@@ -1,12 +1,82 @@
 @import "../../scss/mixin.scss";
+@import "../../scss/var.scss";
 
-.header-wrap {
-  height: 90px;
+.header-wrap header {
+  height: 80px;
   margin-bottom: 25px;
   padding: 0 50px;
   background: #fff;
   @include box-shadow(0 0 10px 0 #e5e5e5);
   .clearfix {
     zoom: 1;
+  }
+  .logo-wrapper {
+    height: 100%;
+    overflow: hidden;
+
+    #logo {
+      float: left;
+      height: 80px;
+      line-height: 80px;
+      img {
+        width: 150px;
+        padding: 12px 0;
+        margin-right: 10px;
+      }
+      span {
+        float: right;
+        font-size: 16px;
+        height: 80px;
+        line-height: 80px;
+        text-transform: uppercase;
+      }
+    }
+
+    .bulldog-menu {
+      float: right;
+      font-size: 14px;
+      font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
+      .nav-item {
+        position: relative;
+        margin: 0;
+        padding: 0 20px;
+        display: block;
+        height: 80px;
+        line-height: 80px;
+        white-space: nowrap;
+        text-align: center;
+        float: left;
+        cursor: pointer;
+        list-style: none;
+        border-bottom: 2px solid transparent;
+        border-bottom-width: 3px;
+        a {
+          display: block;
+          outline: none;
+          background: transparent;
+          color: rgba(0, 0, 0, .65);
+          text-decoration: none;
+          position: relative;
+        }
+        &.nav-item-selected {
+          border-bottom: 2px solid $primary-color;
+          &::after {
+            position: absolute;
+            background: transparent;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            content: '';
+          }
+          a {
+            color: $primary-color;
+            font-weight: bold;
+          }
+        }
+      }
+    }
   }
 }
