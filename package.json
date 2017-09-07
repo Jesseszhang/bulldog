@@ -76,6 +76,7 @@
     "pug-loader": "^2.3.0",
     "sass-loader": "*",
     "shelljs": "*",
+    "standard": "^10.0.3",
     "style-loader": "^0.13.1",
     "stylelint": "^7.8.0",
     "stylelint-config-standard": "^16.0.0",
